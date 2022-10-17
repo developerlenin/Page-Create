@@ -12,16 +12,18 @@
 .navtwo {
 	width: 40%;
 	display: flex;
-  margin: -6px 0px;
+  margin: -6px -75px;
   
 }
 .navthree {
 	width: 30%;
   text-align: right;
+  margin: 0px 37px;
 }
 .navthree ul {
   display: flex;
   float: right;
+  margin: 0px -64px;
 }
 .navthree ul li{
   list-style: none;
@@ -46,10 +48,11 @@
   padding: 12px 10px;
 }
 .section{
+  width:100%;
   display: flex;
 }
 .section-one{
-  width:30%;
+  width:25%;
   height: 650px;
   overflow-y: scroll;
 }
@@ -62,7 +65,7 @@
   padding: 0px 15px;
 }
 .section-two{
-  width:40%;
+  width:50%;
   height: 650px;
   overflow-y: scroll;
 }
