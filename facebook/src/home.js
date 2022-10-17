@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './header'
 import Main1 from './main1'
+import './index.css';
 import Main2 from './main2'
 import Main3 from './main3'
 const home = () => {

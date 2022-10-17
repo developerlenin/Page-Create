@@ -1,8 +1,7 @@
 import React from 'react'
-
+import './index.css';
 const main3 = () => {
   return (
-    <div>
        <div className='section-three'>
         <div className='news'>
         <p style={{fontSize:"30px",textAlign:'center'}}>News Feed</p>
@@ -10,7 +9,6 @@ const main3 = () => {
         <img src="/img/new2.png"style={{width:"auto"}}/>
         </div>
         </div>
-    </div>
   )
 }
 
