@@ -5,8 +5,6 @@ import { faBell, faBox, faBoxesPacking, faCalendar, faClock, faGrip, faHome, faM
 import './index.css';
 const main1 = () => {
   return (
-    
-      
       <div className='section-one'>
           <ul>
              <li>
