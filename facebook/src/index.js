@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import Home from './home/home';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 import Login from './Login/Login';
+import Task from './Task/Task';
 
 const Routercomponent = () => {
   return (
@@ -12,9 +13,10 @@ const Routercomponent = () => {
              <Routes>
              <Route  path='/' element={<Login />}></Route>
              <Route  path='Home' element={<Home />}></Route>
-            </Routes>
+             <Route  path='Task' element={<Task />}></Route>
+            </Routes>,
         </BrowserRouter>
-  )
+  ) 
 }
 export default Routercomponent
 const root = ReactDOM.createRoot(document.getElementById('root'));
