@@ -1,14 +1,24 @@
-import React, { useState } from 'react'
-import { useSearchParams } from 'react-router-dom';
+import React, { useState } from "react";
+
+
 
 const Task = () => {
-  const [tasks,addTask] =useState([]);
-  return (
-    <>
-        <input/>
-        <button>Add</button>
-    </>
-  );
-}
+  const [detail,setdetail]=useState({input:"",textarea:""});
+
+
+  const handlesubmit= (e)=>{
+    console.log(e.target.value)
+  }
  
-export default Task;
+  return (
+    <div>
+      <from>
+        <input name="input" onChange={handlesubmit}></input>
+        <input name="textarea" onChange={handlesubmit}></input>
+        <button type="submit">submit</button>
+      </from>
+    </div>
+  )
+}
+
+export default Task

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./Login.scss"
+import './Login.scss'
 import Home from '../home/home';
 import Lenin from "./user.json"
 import { useNavigate } from 'react-router-dom';

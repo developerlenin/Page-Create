@@ -5,6 +5,7 @@ import { faBell, faBox, faBoxesPacking, faCalendar, faClock, faGrip, faHome, faM
 import './index.scss';
 import {Link} from 'react-router-dom';
 import localStorage from '../Task/Task';
+import Api from '../API/Api';
 const main1 = () => {
   return (
       <div className='section-one'>
@@ -15,11 +16,11 @@ const main1 = () => {
              </li>
              <li>
                 <FontAwesomeIcon icon={faUserFriends}/>
-                <Link  to="/localStorag">Task</Link>
+                <Link className='task'  to="/Task">Task</Link>
              </li>
              <li>
                 <FontAwesomeIcon icon={faUserGroup}/>
-                <span>Groups</span>
+                <span><Link className='api' to="/Api">API</Link></span>
              </li>
              <li>
                 <FontAwesomeIcon icon={faMarsStrokeRight}/>

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 import Login from './Login/Login';
 import Task from './Task/Task';
+import Api from './API/Api';
 
 const Routercomponent = () => {
   return (
@@ -14,6 +15,7 @@ const Routercomponent = () => {
              <Route  path='/' element={<Login />}></Route>
              <Route  path='Home' element={<Home />}></Route>
              <Route  path='Task' element={<Task />}></Route>
+             <Route  path='Api' element={<Api/>}></Route>
             </Routes>,
         </BrowserRouter>
   ) 
